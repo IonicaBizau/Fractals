@@ -1,0 +1,49 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fractali - Proiect" Height="112" Width="422" ResizeMode="NoResize">
+    <Grid>
+        <Button Content="Arborele" Height="49" HorizontalAlignment="Left" Margin="12,12,0,0" Name="button1" VerticalAlignment="Top" Width="89" Click="button1_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF79FF92" Offset="0.009" />
+                    <GradientStop Color="#FF7CFF95" Offset="1" />
+                    <GradientStop Color="#FF0ABA2A" Offset="0.444" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Fulgul de zapada" Height="49" HorizontalAlignment="Left" Margin="107,12,0,0" Name="button2" VerticalAlignment="Top" Width="89" Click="button2_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF79FF92" Offset="0.009" />
+                    <GradientStop Color="#FF7CFF95" Offset="1" />
+                    <GradientStop Color="#FF0ABA2A" Offset="0.444" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Despre" Height="49" HorizontalAlignment="Left" Margin="202,12,0,0" Name="button3" VerticalAlignment="Top" Width="89" Click="button3_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF79FF92" Offset="0.009" />
+                    <GradientStop Color="#FF7CFF95" Offset="1" />
+                    <GradientStop Color="#FF0ABA2A" Offset="0.444" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Iesire" Height="49" HorizontalAlignment="Left" Margin="297,12,0,0" Name="button4" VerticalAlignment="Top" Width="89" Click="button4_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF79FF92" Offset="0.009" />
+                    <GradientStop Color="#FF7CFF95" Offset="1" />
+                    <GradientStop Color="#FF0ABA2A" Offset="0.444" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF20C400" Offset="0" />
+            <GradientStop Color="#FF8FFF79" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+</Window>

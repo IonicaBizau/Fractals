@@ -1,0 +1,43 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="Project.BinaryTree"
+    x:Name="Window"
+    Title="Fractali - Arbore"
+    Width="870"
+    Height="528" Background="#FFB1FFB1" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+
+        <Canvas Name="canvas1" Width="570" Height="465" Margin="12,12,0,0" Background="#FFBDFF00" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+        </Canvas>
+        <Border BorderBrush="#FF085500" BorderThickness="6" Name="border1" Height="466" Width="570" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,10,0,0" />
+        <Button Name="btnStart" Click="btnStart_Click" Content="Start" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16" Margin="605,12,12,429">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3AFF00" Offset="0" />
+                    <GradientStop Color="#FF3CFF00" Offset="1" />
+                    <GradientStop Color="#FF2FBE00" Offset="0.537" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Iesire" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Margin="605,429,12,12" Name="button1" Click="button1_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3AFF00" Offset="0" />
+                    <GradientStop Color="#FF3CFF00" Offset="1" />
+                    <GradientStop Color="#FF2FBE00" Offset="0.537" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Despre" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Margin="605,80,12,361" Name="button2" Click="button2_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3AFF00" Offset="0" />
+                    <GradientStop Color="#FF3CFF00" Offset="1" />
+                    <GradientStop Color="#FF2FBE00" Offset="0.537" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>
