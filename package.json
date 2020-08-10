@@ -1,5 +1,5 @@
 {
-  "name": "fractals",
+  "name": "fractals-simulation",
   "version": "1.0.0",
   "description": "Generate fractals in C#.",
   "main": "lib/index.js",
@@ -30,5 +30,8 @@
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
-  ]
+  ],
+  "blah": {
+    "title": "Fractals"
+  }
 }
