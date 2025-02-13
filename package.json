@@ -1,6 +1,6 @@
 {
   "name": "fractals-simulation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate fractals in C#.",
   "main": "lib/index.js",
   "scripts": {
@@ -27,6 +27,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
